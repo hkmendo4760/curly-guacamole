@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+    <title>Programming Fundamentals</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            font-family: Ariel, Verdana, sans-serif;
+            background-color: rgb(48, 119, 226);}
+        p { color: rgb(255, 251, 28); padding: 10px;}
+        h1 {
+            color: rgb(184, 180, 180);
+            background-color: rgb(4, 6, 145);
+            padding: 1px;}
+        h2 {
+            color: rgb(8, 17, 146);
+            background-color: rgb(178, 178, 182);
+            padding: 1px;}
+
+        li { color: rgb(255, 251, 28); padding: 1px;}   
+    </style>
+
+    <script>
+
+        var showMe = function()
+        {
+            alert("This is the first assignment");
+        };
+
+        window.onload = function () {
+            document.getElementById("mybutton").onclick = showMe;
+      }
+    </script>
+    </head>
+<body>
+    <header>
+    <h1> Programming Fundamentals</h1>
+    </header>
+    <main>
+        <h2>Key Differences between HTML, CSS, and Programming</h2>
+        <p><input type="button" id="mybutton" value="Click Me"></p>
+        <p>HTML and CSS work together to build the structure and appearance of a webpage,
+        but they serve very different purposes. HTML (HyperText Markup Language) provides the structure—it defines
+        elements like headings, paragraphs, images, and links. Think of it as the skeleton of a webpage. CSS (Cascading Style Sheets), 
+        on the other hand, controls the presentation. It handles colors, fonts, spacing, layout, and overall visual design. Without CSS, 
+        every webpage would look plain and unstyled; without HTML, there would be nothing to style in the first place.Another important difference is 
+        how each language behaves. HTML is descriptive: it labels content so the browser knows what each part represents. CSS is declarative: 
+        it tells the browser how things should look but doesn’t control logic or behavior. 
+        </p>
+        <h2 class="headcolor2">The Three Types of Programming Statements</h2>
+        <p>The main types of programming constructs, as described in the lesson on the Fundamentals of Programming are:
+            <ol>
+                <li>Variables</li>
+                <li>IF statements</li>
+                <li>LOOPS statements</li>
+            </ol> 
+        </p>
+    </main> 
+    <footer>
+    <p>Copyright &copy; 2024 (Hector Mendoza)</p>
+    </footer>
+</body>
+</html>
