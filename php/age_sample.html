@@ -1,20 +1,27 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-    <title>0303 HTML Forms</title>
+    <title>308 Assigning Values</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/basic.css">    
     </head>
     
 <body>
     <header>
-    <h3> What is your name?</h3>
+    <h3> How old are you?</h3>
     </header>
     <main>
-        <form method="post" action="sample.php">
+        <form method="post" action="age_sample.php">
             <p>Enter your first name:<br />
             <input type="text" name="firstname" placeholder="Enter your name here" size="30" />
             </p>
+            <p>Enter your last name:<br />
+            <input type="text" name="lastname" placeholder="Enter your last name here" size="30" />
+            </p>
+            <p>Enter your age:<br />
+            <input type="text" name="age" placeholder="Enter your age here" size="3" />
+            </p>
+            
             <p>
             <input type="submit" value="Submit Information" />
             </p>
