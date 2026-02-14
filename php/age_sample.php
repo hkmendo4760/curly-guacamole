@@ -20,10 +20,10 @@
         $currentYear = date('Y');
         $birthYear = $currentYear - $ageIn5Years;
         
-        print "<p>Congratulations $fullname";
-        print "and you say your age is $age";
-        print "but I bet you are really $ageIn5Years";
-        print "and were born in $birthYear.</p>";
+        print "<p>Your name is $fullname ";
+        print "and you say your age is $age ";
+        print "but I bet you are really $ageIn5Years ";
+        print "and were born in $birthYear</p>";
     ?>
     <p>You've just written your second PHP script.</p>
     <footer>
