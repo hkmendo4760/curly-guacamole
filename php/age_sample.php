@@ -14,15 +14,16 @@
         $lastname = $_POST['lastname'];
         $age = $_POST['age'];
 
-        $fullname = $firstname . " " . $lastname;
+        $fullname = "$firstname  $lastname";
         $factor = 5;
         $ageIn5Years = $age + $factor;
-        $currentYear = date("Y");
+        $currentYear = date('Y');
         $birthYear = $currentYear - $ageIn5Years;
         
-        print "<p>Congratulations $firstname $lastname, you are $age years old.</p>";
-        print "<p>In 5 years you will be $ageIn5Years.</p>";
-        print "<p>You were born in $birthYear.</p>";
+        print "<p>Congratulations $fullname";
+        print "and you say your age is $age";
+        print "but I bet you are really $ageIn5Years";
+        print "and were born in $birthYear.</p>";
     ?>
     <p>You've just written your second PHP script.</p>
     <footer>
