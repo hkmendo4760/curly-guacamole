@@ -2,7 +2,7 @@
 <html>
     <head>
     <title>Adding Patron</title>
-    <link rel="stylesheet" type="text/css" href="css/basic.css">    
+    <link rel="stylesheet" type="text/css" href="basic.css">    
     </head>
 <body>
     <div id="logo">
