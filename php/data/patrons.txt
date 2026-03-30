@@ -1,0 +1,12 @@
+Floss|Ted|tfloss@yahoo.com|Detroit|1972
+Mendoza|Hector|hmendoza760@gmail.com|Chicago|1999
+Doe|Kay|kdo@hotmail.com|Toronto|2001
+Mendoza|Hector|hmendoza760@gmail.com|Chicago|2011
+Mendoza|Hector|hmendoza760@gmail.com|Chicago|2011
+Mendoza|Hector|hmendoza760@gmail.com|Detroit|2011
+me|test|tmen@box.com|Chicago|2001
+Mendoza|Hector|hmendoza760@gmail.com|Chicago|1999
+Mendoza|Hector|hmendoza760@gmail.com|Chicago|1999
+Mendoza|Hector|hmendoza760@gmail.com|Detroit|1972
+Mendoza|Nestor|hmendoza760@gmail.com|Detroit|1972
+Mendoza|Nestor|hmendoza760@gmail.com|Detroit|2011

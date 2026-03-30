@@ -82,7 +82,39 @@
     print "<p>Name: $fullname</p>";
     print "<p>Email: $email</p>";
     print "<p>Section: $section</p>";
+	
+
+    //************************************
+	//  Write to File  (Append)
+	//************************************
+
+	$filename = 'data/'.'patrons2.txt';
+
+		$fp = fopen($filename, 'a');   //opens the file for appending
+
+			$output_line = $lastname . "|" .
+						   $firstname . "|" .
+						   $email . "\n";
+
+			fwrite($fp, $output_line);
+			fclose($fp);
+
 ?>
+
+
+<p>
+  For Admin Use Only:
+  <a href="asgn4_mendoza_add_patron.php">
+    <span style="text-decoration: underline; color: blue;">
+      View Patrons
+    </span>
+  </a>
+</p>
+
+</body>
+</html>
+
+
 </div>
 
 </body>

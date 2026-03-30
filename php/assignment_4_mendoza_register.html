@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="KingLib_4.css">
+	<title>King Library</title>
+    
+</head>
+ 
+
+<body>
+
+<header>
+	<div class="logo-container"> 
+		<img class="logo" 
+		src="http://profperry.com/Classes20/PHPwithMySQL/KingLibLogo.jpg" 
+		alt="King Real Estate Logo"
+		/>
+	</div>   
+</header>
+
+<div class="form-wrapper">
+  <p> Please sign up</p>
+  
+	<form method="post" action="assignment_4_mendoza_add_patron.php">
+	
+    <p>
+			First Name:<br/>
+      <input type="text" name="firstname" size="30" />
+    </p>
+    
+		<p>
+			Last Name:<br/>
+      <input type="text" name="lastname"  size="30" />
+    </p>
+            
+		<p>Email:<br/>
+      <input type="text" name="email"  size="30" />
+    </p>
+						
+		<p>Birth Year:<br/>
+       <input type="text" name="birthyear"  size="3" />
+    </p>
+            
+		<p>City of Residence<br/>
+	     <select name="city" size="1">
+				<option value="Select">-</option>
+				<option value="Chicago">Chicago</option>
+				<option value="Detroit">Detroit</option>
+        <option value="Toronto">Toronto</option> 
+	     </select>
+	  </p>
+            
+		<p>
+    <input type="submit" value="Submit Information" />
+    </p>
+		<p>
+  For Admin Use Only:
+  <a href="assignment_4_view_patrons.php">
+    <span style="text-decoration: underline; color: blue;">
+      View Patrons
+    </span>
+  </a>
+</p>
+       
+	</form>
+</div>
+
+</body></html>

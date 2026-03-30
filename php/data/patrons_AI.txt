@@ -1,0 +1,5 @@
+Lemon|Nestor|nlemon@hotmail.com|Chicago|2001
+Hilton|Paris|philton@gmail.com|Chicago|1999
+Hilton|Paris |philton@gmail.com|Chicago|1999
+Martel|Ted|tmartel@box.com|Detroit|2001
+Smith|Bob|bob@gmai.com|Detroit|1988

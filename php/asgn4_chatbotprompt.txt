@@ -1,0 +1,4 @@
+Using an AI chatbot, modify an existing library patron PHP assignment to create AI‑specific versions of the program files.
+Copy the original patrons view program into a new file named assignment_4_view_patrons_AI.php and update it so that patron records are displayed sorted by Last Name, then First Name.
+Copy the original registration form into assignment_4_register_AI.html and update it so that it submits to the new AI patrons view program.
+Update the patron registration PHP program to include enhanced email validation without using type="email". The validation must trim whitespace, require exactly one @ symbol, enforce allowed characters and length rules for the local part, validate proper domain formatting, require at least one period in the domain, and ensure the top‑level domain is at least two letters long.
