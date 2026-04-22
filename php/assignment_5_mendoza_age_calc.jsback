@@ -1,0 +1,34 @@
+
+var $ = function (id) {
+    return document.getElementById(id);
+};
+
+window.onload = function () {
+
+    $("calcBtn").onclick = function () {
+
+        // Get values from user
+        var name = $("firstname").value;
+        var age = $("age").value;
+        var hours = $("hours").value;
+
+        // Calculate in camel case
+        var yearsSlept = age * (hours / 24);
+
+        // Round 
+        yearsSlept = Math.round(yearsSlept);
+
+        // Text display
+        var message = "Hi " + name +
+            ". You have slept " +
+            yearsSlept +
+            " years of your life away.";
+
+ 
+        $("mymsg").innerHTML = message;
+
+        // Remove green class, add blue class
+        $("mymsg").classList.remove("greentext");
+        $("mymsg").classList.add("bluetext");
+    };
+};
